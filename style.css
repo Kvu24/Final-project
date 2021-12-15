@@ -1,0 +1,260 @@
+body {
+  font-family: Copperplate, Papyrus, fantasy;
+text-size-adjust: 14pt;
+}
+
+h1 {
+ text-shadow: 2 px 2px black;
+}
+
+h2 {
+  box-shadow: 5px 5 px black;
+  
+}
+img {
+ 
+ max-width: 500px;
+ text-align: center;
+ justify-self: center;
+ padding: 20px 0;
+ margin: 0 auto;
+}
+
+
+/* Navbar */
+.navbar {
+width: auto;
+background-color:black
+
+}
+
+.navbar-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 1440px;
+ margin: 0 auto;
+}
+
+.navbar ul {
+ display: flex;
+ align-items: center; 
+ position: sticky;
+}
+
+.navbar li {
+ margin: 10px;
+ font-weight: bold;
+}
+
+.navbar a {
+ color: white;
+ text-decoration:none;
+ text-transform: uppercase;
+}
+
+.navbar a:hover {
+ color:black;
+ background-color:white;
+}
+
+.navbar-brand img {
+ width: 50px;
+ height: 50px;
+}
+
+
+
+
+.p {
+  color: white;
+}
+
+
+/* Box */
+.box {
+ margin-bottom: 5px;
+}
+
+/* Grid Styles */
+.grid-col-2 {
+ display: grid;
+
+ grid-template-columns: repeat(2, 1fr);
+ gap: 2rem;
+ align-items: center;
+ justify-content: space-between;
+}
+
+
+/* Backgrounds */
+
+.bg-color{
+ color: rgb(0, 0, 0);
+}
+
+
+
+/* Text Styling */
+.text-center {
+ text-align: center;
+}
+
+
+
+
+
+/* Hamburger Menu Icon */
+.hamburger {
+ cursor: pointer;
+ width: 24px;
+ height: 24px;
+ position: relative;
+ background: none;
+ border: none;
+ z-index: 10;
+ transition: all 0.25s;
+ display: none;
+}
+
+
+
+
+
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("./oaklandhero.jpg");
+  opacity: .8;
+  height: 450px;
+  background-position: center;
+
+
+}
+
+/* Hero images */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* hyper link to clothings */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+/* About page */
+
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  overflow:auto;
+  
+}
+
+
