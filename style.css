@@ -3,6 +3,10 @@ body {
 text-size-adjust: 14pt;
 }
 
+/* Text Styling */
+.text-center {
+  text-align: center;
+ }
 h1 {
  text-shadow: 2 px 2px black;
 }
@@ -10,6 +14,10 @@ h1 {
 h2 {
   box-shadow: 5px 5 px black;
   
+}
+
+.p {
+  color: white;
 }
 img {
  
@@ -66,9 +74,7 @@ background-color:black
 
 
 
-.p {
-  color: white;
-}
+
 
 
 /* Box */
@@ -95,10 +101,7 @@ background-color:black
 
 
 
-/* Text Styling */
-.text-center {
- text-align: center;
-}
+
 
 
 
